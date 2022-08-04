@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
+mkdocs-macros-plugin = "*"
 
 [dev-packages]
 
+[scripts]
+build = "mkdocs build"
+serve = "mkdocs serve"
