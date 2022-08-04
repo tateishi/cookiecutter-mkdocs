@@ -3,6 +3,13 @@ site_name: My Docs
 theme: 
   name: material
   language: ja
+
+extra_css:
+  - css/main.css
+
+extra_javascript:
+  - js/main.js
+
 extra:
   search:
     language: ja
